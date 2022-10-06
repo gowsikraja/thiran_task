@@ -1,16 +1,20 @@
-# thiran_task
+<h1>Flutter Task</h1>
 
-A new Flutter project.
+## Task-1
 
-## Getting Started
+The task is to implement a small app that will list the most starred Github repos
+that were created in the last 30 days. You'll be fetching the sorted JSON data directly from the
+Github API.
 
-This project is a starting point for a Flutter application.
+## Features
+As a User I should be able to list the most starred GitHub repos that were created in the last 30
+days.
+As a User I should see the results as a list. One repository per row.
+As a User I should be able to see for each repo/row the following details:
 
-A few resources to get you started if this is your first Flutter project:
+o Repository name
+o Repository description
+o Numbers of stars for the repo.
+o Username and avatar of the owner.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
